@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(8, 194, 250);
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 3em 2.5em;
+    top: 65%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 3px rgba(8, 21, 65);
+}
+
+.guess-wrapper button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: rgb(248, 248, 248);
+    border-radius: 6px;
+    border: 0cm;
+}
+
+.guess-wrapper button:hover{
+    background-color: rgb(68, 21, 112);
+}
+
+.guess-wrapper button:active{
+    background-color: rgb(118, 41, 191);
+}
+
+.guess-wrapper input{
+    padding: 8px;
+    background-color: rgb(251, 250, 255);
+    border-radius: 6px;
+    border-color: blueviolet;
+}
+
+.flag{
+    position: absolute;
+    object-fit: cover;
+    top: 20%;
+}
+
+.flag{
+    background-color: rgb(89, 87, 87);
+    position: absolute;
+    padding: 3em 2.5em;
+    top: 10%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 3px rgba(8, 21, 65);
+}
+
+.result{
+    position: absolute;
+    top: 7%;
+}
+
+h3{
+    margin-bottom: 30px;
+    position: relative;
+    color: aliceblue;
+}
